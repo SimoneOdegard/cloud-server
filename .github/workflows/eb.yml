@@ -20,8 +20,8 @@ jobs:
       with:
         aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        application_name: cloud-server
+        application_name: cloud-server-2
         environment_name: cloud-server-2-env
-        version_label: 12345
+        version_label: 12346
         region: us-west-2
         deployment_package: server2.zip
